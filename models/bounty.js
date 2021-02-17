@@ -14,6 +14,7 @@ const bountySchema = new MONGOOSE.Schema({
     type: String,
     required: true
   },
+  ship: String,
   reward: {
     type: Number,
     default: 10000,
